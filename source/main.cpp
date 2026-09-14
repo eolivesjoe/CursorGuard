@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 
     std::cout << "Monitors:\n\n";
 
-    for (size_t i = 0; i < monitors.size(); ++i)
+    for (size_t i = 0; i != monitors.size(); ++i)
     {
         const Monitor& monitor = monitors[i];
 
