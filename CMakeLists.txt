@@ -9,6 +9,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/lib)
 
 add_executable(CursorGuard
     source/main.cpp
+    source/Application/Application.cpp
     source/CursorLock/CursorLock.cpp
     source/Monitor/Monitor.cpp
 )
